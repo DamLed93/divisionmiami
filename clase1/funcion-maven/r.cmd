@@ -1,0 +1,1 @@
+java -jar target\nocionMaven-2.2.jar
