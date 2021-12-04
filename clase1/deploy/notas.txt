@@ -1,0 +1,20 @@
+Crear una maquina virtual con docker y Ubuntu 20.04
+
+Descargar amazon correto
+
+wget https://corretto.aws/downloads/latest/amazon-corretto-11-x64-linux-jdk.tar.gz
+
+Descomprimir el archivo bajado 
+
+tar xvf amazon-corretto-11-x64-linux-jdk.tar.gz
+
+mv amazon-corretto-11.0.13.8.1-linux-x64/ /opt
+
+PATH=$PATH:/opt/amazon-corretto-11.0.13.8.1-linux-x64/bin
+
+Para testear javac --version y java --version
+
+wget https://dlcdn.apache.org/maven/maven-3/3.8.4/binaries/apache-maven-3.8.4-bin.tar.gz
+
+tar xvf apache-maven-3.8.4-bin.tar.gz
+
