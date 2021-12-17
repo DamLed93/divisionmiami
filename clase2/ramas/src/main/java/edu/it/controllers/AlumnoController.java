@@ -35,4 +35,9 @@ public class AlumnoController {
 	public String variableEntorno() {
 		return System.getenv("instancia");
 	}
+	
+	@GetMapping(path="/nuevo")
+	public String nuevoEndpoint() {
+		return "/alumno/nuevo";
+	}
 }
