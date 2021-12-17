@@ -3,3 +3,8 @@ donde la clave publica va a estar en el servidor
 y la clave privada la utilizo para acceder al mismo.
 
 ssh-keygen 
+
+texto que quiero insertar en git
+
+utilicen nano o vim para editar archivos
+
