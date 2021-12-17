@@ -40,4 +40,9 @@ public class AlumnoController {
 	public String nuevoEndpoint() {
 		return "/alumno/nuevo";
 	}
+	
+	@GetMapping(path="/otro")
+	public String otroEndpoint() {
+		return "/alumno/otro";
+	}
 }
