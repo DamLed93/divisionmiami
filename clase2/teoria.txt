@@ -1,0 +1,5 @@
+A traves ssh-keygen puedo generar un juego de claves
+donde la clave publica va a estar en el servidor
+y la clave privada la utilizo para acceder al mismo.
+
+ssh-keygen 
